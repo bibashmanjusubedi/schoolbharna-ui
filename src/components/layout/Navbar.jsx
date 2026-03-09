@@ -1,12 +1,15 @@
 import "./Navbar.css";
+import logo from "../../assets/images/logo.png";
+import loginIcon from "../../assets/images/loginIcon.png";
 
 export default function Navbar(){
     return(
         <header className="navbar">
             <div className="navbar-container">
                 <div className= "navbar-logo">
-                    <span className="logo-school">school</span>
-                    <span className="logo-bharna">bharna</span>
+                    <img src={logo} />
+                    {/* <span className="logo-school">school</span>
+                    <span className="logo-bharna">bharna</span> */}
                 </div>
 
                 <nav className="navbar-menu">
@@ -19,7 +22,7 @@ export default function Navbar(){
                 </nav>
                 <div className="navbar-actions">
                     <button className="qna-btn">QnA</button>
-                    <button className="theme-btn">◐</button>
+                    <img src={loginIcon} className="theme-btn"></img>
                 </div>
             </div>
         </header>
