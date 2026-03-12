@@ -1,1 +1,89 @@
 /* CSS For Hero Section (Find the Right Course) */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+.find-course-section{
+    width:100%;
+    height:500px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.find-course-overlay{
+    width:100%;
+    max-width:1200px;
+    padding:0 20px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.find-course-title{
+    color:#fff;
+    font-size:3rem;
+    font-weight:500;
+    letter-spacing:1px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.find-course-search-box{
+    width:540px;
+    height:50px;
+    background-color:#ffffff;
+    border:4px solid #ffffff;
+    border-radius:6px;
+    overflow:hidden;
+    display:flex;
+    align-items:stretch;
+    box-sizing: border-box;
+}
+
+.find-course-select-wrapper{
+    position:relative;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+
+.find-course-select{
+    width:140px;
+    border:none;
+    outline:none;
+    font-size:14px;
+    font-family:"Source Sans Pro", sans-serif;
+    padding:0 18px;
+    border-right:1px solid #d9d9d9;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    cursor:pointer;
+}
+
+.find-course-select-arrow{
+    position:absolute;
+    right:45px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#464646;
+    font-size:16px;
+    pointer-events: none;
+}
+
+
+.find-course-input{
+    flex:1;
+    border:none;  
+}
+
+.find-course-divider{
+    height:100%;
+    width:1px;
+    align-self:stretch;
+}
