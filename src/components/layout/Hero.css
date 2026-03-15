@@ -59,7 +59,7 @@
     font-size:14px;
     font-family:"Source Sans Pro", sans-serif;
     padding:0 18px;
-    border-right:1px solid #d9d9d9;
+    /* border-right:1px solid #d9d9d9; */
     appearance:none;
     -webkit-appearance:none;
     -moz-appearance:none;
@@ -83,7 +83,7 @@
 }
 
 .find-course-divider{
-    height:100%;
+    height:auto;
     width:1px;
     align-self:stretch;
 }
