@@ -80,11 +80,26 @@
 
 .find-course-input{
     flex:1;
-    border:none;  
+    border:none;
+    text-align: center;
 }
 
 .find-course-divider{
     height:auto;
     width:1px;
     align-self:stretch;
+}
+
+.find-course-button{
+    background-color: #2E9ADF;
+    opacity: 100%;
+    margin:4px;
+    color:#ffffff;
+    border-radius: 4px;
+    width:148px;
+    border-color: #ffffff;
+    font-family: "Opens Sans", sans-serif;
+    font-size: 16px;
+    line-height:normal;
+    letter-spacing: 0;
 }
