@@ -25,9 +25,9 @@ export default function FindTheRightCourse(){
     </svg></span>
                     </div>
                    
-                    <svg className="find-course-divider" viewBox="0 0 1 49" fill="black" xmlns="http://www.w3.org/2000/svg">
+                    {/* <svg className="find-course-divider" viewBox="0 0 1 49" fill="black" xmlns="http://www.w3.org/2000/svg">
 <line x1="0.5" x2="0.5" y2="49" stroke="#CECECE"/>
-</svg>
+</svg> */}
 
 
                     <input
