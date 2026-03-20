@@ -1,5 +1,9 @@
 import "./HomeCards.css";
 import { useState } from "react";
+import  group17 from "../../assets/images/Group-17.png";
+import icon3 from "../../assets/images/icon3.png";
+import icon1 from "../../assets/images/icon1.png";
+import chat from "../../assets/images/CHAT.png"
 
 const cards = [
     "Admission for 2020",
@@ -8,6 +12,8 @@ const cards = [
     "Discussion Hub"
 ]
 
+
+const icons = [group17,icon3,icon1,chat]; 
 
 export default function HomeCards(){
     const [startIndex,setStartIndex] = useState(0);
@@ -41,8 +47,14 @@ export default function HomeCards(){
                         .slice(startIndex,startIndex + visibleCards)
                         .map((card,index) => (
                             <div className = "card" key={index}>
-                            {card}
-                            <span>Explore Now</span>
+                                <div className="icon-wrapper">
+                                {/* <img src={index === 0 ?  group17: icon3} className="card-icon"/> */}
+                                <img src={icons[index]} className="card-icon" />
+                                </div>
+                                <div className = "card-text">
+                                    {card}
+                                    <span>Explore Now</span>
+                                </div>
                             </div>
                         ))}
                 </div>

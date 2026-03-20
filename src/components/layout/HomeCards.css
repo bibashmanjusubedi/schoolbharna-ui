@@ -28,7 +28,9 @@
     border-radius: 6px;
     box-shadow:0 2px 6px rgba(0,0,0,0.1);
     font-size:14px;
-    text-align:center;
+    display:flex;
+    align-items: center;
+    gap:12px;
 }
 
 
@@ -61,4 +63,26 @@
 
 .arrow.right{
     right:-16px;
+}
+
+
+.card-icon{
+    width:15px;
+    height:15px;
+    object-fit:contain;
+}
+
+.card-text{
+    display:flex;
+    flex-direction:column;
+}
+
+.icon-wrapper{
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+    border:1px solid #464646;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
