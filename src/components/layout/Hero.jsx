@@ -39,6 +39,10 @@ export default function FindTheRightCourse(){
                     <button className = "find-course-button">SEARCH</button>
                 </div>
             </div>
+
+            <div className= "school-college-name">
+                Name of the School/College
+            </div>
         </section>
     );
 }

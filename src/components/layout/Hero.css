@@ -107,3 +107,14 @@
 }
 
 
+.school-college-name{
+    position:absolute;
+    top: 451px;
+    right:67px;
+    width: 358px;
+    height: 20px;
+    color:white;
+    font-size:500;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
