@@ -1,0 +1,29 @@
+.course-help {
+    background:#f5f7fa;
+    padding:40px 0;
+}
+
+.course-help-container {
+    max-width: 1200px;
+    margin:0 auto;
+    left:-16px;
+    position: relative;
+}
+
+.course-help-header{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.course-help-header h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+.course-help-header p{
+    font-size: 14px;
+    color:#666;
+}
