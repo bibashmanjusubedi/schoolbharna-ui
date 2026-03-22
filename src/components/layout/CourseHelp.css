@@ -27,3 +27,21 @@
     font-size: 14px;
     color:#666;
 }
+
+
+.course-help-subrow{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+
+.view-all{
+    position:absolute;
+    right:-32px;
+    top:0;
+    color:#2e9adf;
+    font-size:14px;
+    text-decoration: none;
+}
