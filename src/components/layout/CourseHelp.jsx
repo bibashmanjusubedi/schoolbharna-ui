@@ -1,19 +1,28 @@
 import "./CourseHelp.css";
-
+import hotelIcon from "../../assets/images/exam.png";
+import briefCase from "../../assets/images/briefcase.png";
+import dependents from "../../assets/images/Dependents.png";
+import home from "../../assets/images/Home.png";
+import donations from "../../assets/images/Donations.png";
+import selfEmployed from "../../assets/images/Self-Employed.png";
+import ownBusiness from "../../assets/images/own-business.png";
+import medicalExpenses from "../../assets/images/medical-expenses.png";
+import stocks from "../../assets/images/Stocks.png";
+import cpaIcon from "../../assets/images/CPA-icon.png";
 
 const courses = [
-    { title: "Hotel Management", colleges:"4000 Colleges", icon:"Some Hotel Icon"},
-    { title: "Business", colleges: "4000 Colleges", icon: "Some Brief Case Icon" },
-    { title: "Design", colleges: "4000 Colleges", icon: "Some Design Icon" },
-    { title: "Computer & IT", colleges: "4000 Colleges", icon: "Some Laptop Icon" },
-    { title: "Business", colleges: "4000 Colleges", icon : "Some Brief Case Icon" },
-    { title: "Hotel Management", colleges: "4000 Colleges", icon: "Some Hotel Icon" },
-    { title: "Design", colleges: "4000 Colleges", icon: "Some Design Service Icon" },
-    { title: "Computer & IT", colleges: "4000 Colleges", icon: "Some IT Icon" },
-    { title: "Hotel Management", colleges: "4000 Colleges", icon: "Some Hotel Icon" },
-    { title: "Medical", colleges: "4000 Colleges", icon: "Some Medical Icon" },
-    { title: "Accounting", colleges: "4000 Colleges", icon: "Some Chart Icon" },
-    { title: "Arts & Media", colleges: "4000 Colleges", icon: "Some Arts Icon" },    
+    { title: "Hotel Management", colleges:"4000 Colleges", icon:hotelIcon},
+    { title: "Business", colleges: "4000 Colleges", icon: briefCase },
+    { title: "Design", colleges: "4000 Colleges", icon:  dependents},
+    { title: "Computer & IT", colleges: "4000 Colleges", icon: hotelIcon },
+    { title: "Business", colleges: "4000 Colleges", icon : hotelIcon },
+    { title: "Hotel Management", colleges: "4000 Colleges", icon: home },
+    { title: "Design", colleges: "4000 Colleges", icon: donations },
+    { title: "Computer & IT", colleges: "4000 Colleges", icon: selfEmployed },
+    { title: "Hotel Management", colleges: "4000 Colleges", icon: ownBusiness },
+    { title: "Medical", colleges: "4000 Colleges", icon: medicalExpenses },
+    { title: "Accounting", colleges: "4000 Colleges", icon: stocks },
+    { title: "Arts & Media", colleges: "4000 Colleges", icon: cpaIcon },    
 ];
 
 export default function CourseHelp(){
@@ -39,7 +48,7 @@ export default function CourseHelp(){
                 <div className="course-grid">
                     {courses.map((course, index) => (
                         <div className="course-card" key={index}>
-                            <div className="course-icon">{course.icon}</div>
+                            <div className="course-icon"><img src={course.icon}/></div>
                             <h3>{course.title}</h3>
                             <span>{course.colleges}</span>
                         </div>

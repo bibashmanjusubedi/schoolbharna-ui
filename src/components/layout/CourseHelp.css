@@ -61,3 +61,29 @@
     box-shadow:0 1px rgba(0,0,0,0.08);
     transition: transform 0.2s ease;
 }
+
+
+.course-card:hover{
+    transform:translateY(-2px);
+}
+
+.course-icon{
+    font-size:14px;
+    color:#2e9adf;
+    margin-bottom:12px;
+    display:flex;
+    justify-content:center;
+}
+
+
+.course-card h3{
+    font-size:14px;
+    font-weight:600;
+    color:#333;
+    margin:0 0 6px;
+}
+
+.course-card span{
+    font-size:12px;
+    color:#777;
+}
