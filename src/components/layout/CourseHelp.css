@@ -45,3 +45,19 @@
     font-size:14px;
     text-decoration: none;
 }
+
+.course-grid{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:18px;
+}
+
+.course-card{
+    background:#fff;
+    border:1px solid #e6e6e6;
+    text-align:center;
+    padding:22px 12px 18px;
+    min-height:120px;
+    box-shadow:0 1px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
