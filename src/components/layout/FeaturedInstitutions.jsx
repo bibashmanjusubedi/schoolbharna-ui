@@ -54,7 +54,7 @@ export default function FeaturedInstitutions(){
         <section className="featured-institutions">
             <div className="featured-container">
                 <div className = "featured-header">
-                    <h2>Featured Institions</h2>
+                    <h2>Featured Institutions</h2>
                     <p>Showing 12 Featured institutions</p>
                 </div>
 
