@@ -3,6 +3,11 @@ import islington from "../../assets/images/islington.png";
 import king from "../../assets/images/king.png";
 import trichandra from "../../assets/images/trichandra.png";
 import liverpool from "../../assets/images/liverpool.png";
+import featuredGroup1699 from "../../assets/images/Group1699.png"
+import foxHub from "../../assets/images/foxHub.png";
+import kingLogo from "../../assets/images/kingLogo.png";
+import islingtonLogo from "../../assets/images/islingtonLogo.png";
+import liverpoolLogo from "../../assets/images/liverpoolLogo.png";
 
 const institutions = [
     {
@@ -10,28 +15,36 @@ const institutions = [
         university:"NLICA Rating",
         type:"Private College",
         campus: "Kathmandu, Nepal",
-        image:islington
+        image:islington,
+        logo:foxHub,
+        featured:featuredGroup1699
     },
     {
         name:"King College",
         university:"NLICA Rating",
         type:"Private College",
         campus:"Kathmandu, Nepal",
-        image:king
+        image:king,
+        logo:kingLogo,
+        featured:featuredGroup1699,
     },
     {
         name:"Trichandra Campus",
         university:"NLICA Rating",
         type:"Private College",
         campus:"Kathmandu, Nepal",
-        image:trichandra
+        image:trichandra,
+        logo:islingtonLogo,
+        featured:featuredGroup1699
     },
     {
         name:"Liverpool College",
         university:"NLICA Rating",
         type:"Private College",
         campus:"Kathmandu, Nepal",
-        image:liverpool
+        image:liverpool,
+        logo:liverpoolLogo,
+        featured:featuredGroup1699
     },
 ];
 
@@ -48,8 +61,14 @@ export default function FeaturedInstitutions(){
                 <div className="featured-grid">
                     {institutions.map((item,index) =>(
                         <div className="institution-card" key={index}>
-                            <img src={item.image} alt={item.name} className="institution-image" />
+                            <div className="institution-image-wrapper">
+                                <img src={item.image} alt={item.name} className="institution-image" />
 
+                                <img src={item.logo} className="institution-logo" />
+
+                                <img src={item.featured} className="featured-badge" />
+                            </div>
+                            
                             <div className="institution-body">
                                 <h3>{item.name}</h3>
                                 <p className="rating">{item.university} ★★★★☆</p>
