@@ -84,6 +84,8 @@
 
 
 .institution-body a{
+    display:block;
+    text-align: center;
     font-size: 12px;
     color:#2e9adf;
     text-decoration: none;
