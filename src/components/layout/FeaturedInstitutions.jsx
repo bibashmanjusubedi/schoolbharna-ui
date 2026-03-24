@@ -94,6 +94,8 @@ export default function FeaturedInstitutions(){
                     <span className="dot active"></span>
                     <span className="dot"></span>
                     <span className="dot"></span>
+                    <span className="dot"></span>
+                    <span className="dot"></span>
                     <button>{">"}</button>
                 </div>
             </div>
