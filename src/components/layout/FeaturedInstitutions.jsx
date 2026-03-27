@@ -71,7 +71,7 @@ export default function FeaturedInstitutions(){
                             
                             <div className="institution-body">
                                 <h3>{item.name}</h3>
-                                <p className="rating">{item.university} ★★★★☆</p>
+                                <p className="rating">{item.university} ☆☆☆★★</p>
 
                                 <div className = "info-block">
                                     <span>INSTITUTE TYPE</span>
