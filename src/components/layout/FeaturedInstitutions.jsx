@@ -83,6 +83,8 @@ export default function FeaturedInstitutions(){
                                     <p>{item.campus}</p>
                                 </div>
 
+                                <hr className="divider" />
+
                                 <a href="/">View All Courses</a>
                             </div>   
                         </div>
