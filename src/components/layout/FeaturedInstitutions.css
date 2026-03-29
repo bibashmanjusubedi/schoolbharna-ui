@@ -37,7 +37,23 @@
 .institution-card{
     background:#fff;
     border:1px solid #e5e5e5;
+    transition:all 0.25s ease;
+    cursor:pointer;
 }
+
+
+.institution-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+
+.institution-card.active {
+    border:1px solid black;
+}
+
+
+
 
 .institution-image{
     width:100%;
@@ -141,13 +157,55 @@
     padding:6px;
 }
 
-
-.featured-badge{
+.featured-wrapper{
     position:absolute;
     top:-5px;
     right:-5px;
     width:70px;
+    height:70px;
 }
+
+
+.featured-badge{
+    width:100%;
+    height:100%;
+    position:relative;
+    z-index: 2;
+}
+
+/* Outer triangle: black border */
+.institution-card.active .featured-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 74px solid black; 
+    border-left: 74px solid transparent;
+    z-index: 1;
+}
+
+/* Inner triangle: actual background color / badge color */
+.institution-card.active .featured-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 74px solid black;  /* match your badge background */
+    border-left: 74px solid transparent;
+    z-index: 1;
+}
+
+
+/* .featured-badge{
+    position:absolute;
+    top:-5px;
+    right:-5px;
+    width:70px;
+} */
 
 
 .divider{
@@ -155,3 +213,5 @@
     border-top:1px solid #e6e6e6;
     margin: 12px -12px;
 }
+
+

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./FeaturedInstitutions.css";
 import islington from "../../assets/images/islington.png";
 import king from "../../assets/images/king.png";
@@ -50,6 +51,8 @@ const institutions = [
 
 
 export default function FeaturedInstitutions(){
+    const [activeIndex, setActiveIndex] = useState(null);
+
     return (
         <section className="featured-institutions">
             <div className="featured-container">
@@ -60,13 +63,17 @@ export default function FeaturedInstitutions(){
 
                 <div className="featured-grid">
                     {institutions.map((item,index) =>(
-                        <div className="institution-card" key={index}>
+                        <div className={`institution-card ${activeIndex === index ? "active":""}`} key={index} onClick={()=> setActiveIndex(index)}>
                             <div className="institution-image-wrapper">
                                 <img src={item.image} alt={item.name} className="institution-image" />
 
                                 <img src={item.logo} className="institution-logo" />
 
-                                <img src={item.featured} className="featured-badge" />
+                                <div className="featured-wrapper">
+                                    <img src={item.featured} className="featured-badge" />
+                                </div>
+
+                               
                             </div>
                             
                             <div className="institution-body">
