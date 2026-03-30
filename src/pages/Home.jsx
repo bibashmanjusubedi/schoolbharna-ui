@@ -3,6 +3,7 @@ import FindTheRightCourse from "../components/layout/Hero";
 import HomeCards from "../components/layout/HomeCards";
 import CourseHelp from "../components/layout/CourseHelp";
 import FeaturedInstitutions from "../components/layout/FeaturedInstitutions";
+import SecuritySection from "../components/layout/SecuritySection";
 import "./Home.css";
 
 export default function Home(){
@@ -13,6 +14,7 @@ export default function Home(){
             <HomeCards />
             <CourseHelp />
             <FeaturedInstitutions />
+            <SecuritySection />
         </>
     )
 }
