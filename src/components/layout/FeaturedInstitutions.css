@@ -186,18 +186,6 @@
     z-index: 1;
 }
 
-/* Inner triangle: actual background color / badge color */
-.institution-card.active .featured-wrapper::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-top: 74px solid black;  /* match your badge background */
-    border-left: 74px solid transparent;
-    z-index: 1;
-}
 
 
 /* .featured-badge{
