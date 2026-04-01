@@ -43,7 +43,10 @@ export default function NucasAdvantage(){
                         </ul>
 
                         <div className="cta">
-                            <button>Create Profile</button>
+                            <button className="cta-btn">Create Profile <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12.4395L6.19955 6.21964L0 -0.000141144V12.4395Z" fill="white"/>
+                                </svg>
+                            </button>
                             <span className="count">177890+ courses applied so far</span>
                         </div>
                     </div>                
