@@ -90,3 +90,22 @@
     color:white;
     padding:0 20px;
 }
+
+
+.overlay-content ul{
+    list-style: none;
+}
+
+
+.overlay-content img{
+    width:20.1px;
+    height:20.36px;
+    display:block;
+}
+
+.overlay-content ul li{
+    display:flex;
+    align-items: center;
+    gap:8px;
+    margin-bottom: 5px;
+}

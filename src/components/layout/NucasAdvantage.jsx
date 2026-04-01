@@ -1,5 +1,6 @@
 import "./NucasAdvantage.css";
 import application from "../../assets/images/application.png";
+import bullet from "../../assets/images/Group747.png";
 
 export default function NucasAdvantage(){
     return (
@@ -36,9 +37,9 @@ export default function NucasAdvantage(){
                         <h1>One Application. 220+ Institutions</h1>
 
                         <ul>
-                            <li>Explore top-ranking universities catered to your needs, in one place</li>
-                            <li>Key in details ONCE to multiply institutions</li>
-                            <li>Sift through numerous offers and find the best one for you & your future!</li>
+                            <li><img src={bullet}/> <span>Explore top-ranking universities catered to your needs, in one place</span></li>
+                            <li><img src={bullet}/> <span>Key in details ONCE to multiply institutions</span></li>
+                            <li><img src={bullet}/> <span>Sift through numerous offers and find the best one for you & your future!</span></li>
                         </ul>
 
                         <div className="cta">
