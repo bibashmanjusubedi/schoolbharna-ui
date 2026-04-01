@@ -1,0 +1,92 @@
+.nucas-advantage{
+    background:#f5f7fa;
+    padding:50px 0;
+}
+
+.advantage-container{
+    max-width: 1200px;
+    margin:0 auto;
+    text-align: left;
+}
+
+
+.advantage-header{
+    margin-bottom:20px;
+}
+
+
+.advantage-header h2{
+    font-size:24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.advantage-header p{
+    color:#666;
+    font-size: 14px;
+    margin-bottom:20px;
+}
+
+
+.advantage-tabs-wrapper{
+    width:100%;
+    border-bottom:1px solid #ddd;
+    background:#fff;
+}
+
+
+.advantage-tabs{
+    display:flex;
+    justify-content: space-between;
+    gap:25px;
+    background:#fff;
+    /* border-bottom:1px solid #ddd;
+    padding-bottom:10px; */
+}
+
+
+.advantage-tabs span{
+    font-size:14px;
+    color:#777;
+    cursor:pointer;
+    position:relative;
+}
+
+.advantage-tabs .active{
+    color:#2b6cb0;
+    font-weight: 500;
+}
+
+.advantage-hero{
+    position:relative;
+    width:100vw;
+    /* margin-left: calc(-50vw + 50%); */
+}
+
+.advantage-hero img{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+    display:block;
+}
+
+
+.overlay{
+    position:absolute;
+    top:65px;
+    left:555px;
+    width:100%;
+    height:100%; 
+    /* background: rgba(43,108,176,0.6); */
+    display:flex;
+    align-items:center;
+}
+
+
+.overlay-content{
+    max-width: 1200px;
+    margin:0 auto;
+    width:100%;
+    color:white;
+    padding:0 20px;
+}
