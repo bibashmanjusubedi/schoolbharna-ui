@@ -1,25 +1,29 @@
 import "./SecuritySection.css";
+import download from "../../assets/images/download.png";
+import b3 from "../../assets/images/bf3d197.png";
+import d1 from "../../assets/images/d1dbdbb.png";
+
 
 const features = [
     {
         title:"Get Exam alerts",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod",
-        icon: "📄",
+        icon: download,
         bg:"#f3e8ff"
     },
     {
         title: "eMarksheets/Result",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod",
-        icon: "📘",
+        icon: b3,
         bg: "#e0f2fe",
     },
     {
         title: "Write Review",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod",
-        icon: "💲",
+        icon: d1,
         bg: "#dcfce7",
     },
 ];
@@ -41,10 +45,19 @@ export default function SecuritySection(){
                             className = "security-card"
                             style = {{ background: item.bg }}
                         >
-                            <div className = "icon">{item.icon}</div>
-                            <h3>{item.title}</h3>
-                            <p>{item.description}</p>
-                            <a href="#">Know more</a>
+                            <div className="card-top">
+                                <div className = "icon"><img src={item.icon} alt=""/></div>
+
+                                <div className="card-content">
+                                <h3>{item.title}</h3>
+                                <p>{item.description}</p>
+                                <a href="#">Know more</a>
+                            </div>
+                            </div>
+
+
+                            
+
                         </div>
                     ))}
                 </div>
