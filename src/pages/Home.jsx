@@ -16,7 +16,7 @@ export default function Home(){
             <CourseHelp />
             <FeaturedInstitutions />
             <SecuritySection />
-            <NucasAdvantage />
+            {/* <NucasAdvantage /> */}
         </>
     )
 }
