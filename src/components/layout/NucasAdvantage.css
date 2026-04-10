@@ -31,7 +31,7 @@
 .advantage-tabs-wrapper{
     width:100%;
     border-bottom:1px solid #ddd;
-    background:#fff;
+    background:#f4f4f4;
 }
 
 
@@ -39,7 +39,7 @@
     display:flex;
     justify-content: space-between;
     gap:25px;
-    background:#fff;
+    background:#f4f4f4;
     /* border-bottom:1px solid #ddd;
     padding-bottom:10px; */
 }
@@ -50,6 +50,17 @@
     color:#777;
     cursor:pointer;
     position:relative;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:14px 18px;
+    background:#f4f4f4;
+    border-right:1px solid #ddd;
+}
+
+
+.advantage-tabs span:last-child{
+    border-right:none;
 }
 
 .advantage-tabs .active{
