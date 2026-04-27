@@ -99,3 +99,11 @@
 .topRated-card-pln{
     margin-right:4px;
 }
+
+.featured-dots {
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:8px;
+}

@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
 import "./TopRatedInstitutes.css";
+import ICLogo from "../../assets/images/ICLogo.png";
+import AscolCampusLogo from "../../assets/images/AscolCampusLogo.png";
+import KMCLogo from "../../assets/images/KMCLogo.png";
+import BNKSLogo from "../../assets/images/BNKSLogo.png";
 
 const institutes = [
   {
@@ -8,7 +12,7 @@ const institutes = [
     location: "Kamal Pokhari",
     rating: 3.9,
     reviews: 930,
-    logo: "/institutes/islington.png",
+    logo: ICLogo,
   },
   {
     id: 2,
@@ -16,7 +20,7 @@ const institutes = [
     location: "Kamal Pokhari",
     rating: 3.9,
     reviews: 930,
-    logo: "/institutes/ascol.png",
+    logo: AscolCampusLogo,
   },
   {
     id: 3,
@@ -24,7 +28,7 @@ const institutes = [
     location: "Kamal Pokhrai",
     rating: 3.9,
     reviews: 930,
-    logo: "institutes/kmc.png",
+    logo: KMCLogo,
   },
   {
     id: 4,
@@ -32,7 +36,7 @@ const institutes = [
     location: "Kamal Pokhari",
     rating: 3.9,
     reviews: 930,
-    logo: "/institutes/budhanilkantha.png",
+    logo: BNKSLogo,
   },
   {
     id: 5,
@@ -189,12 +193,22 @@ export default function TopRatedInstitutes() {
           </div>
 
           <button
-            className = "topRated-navBtn"
-            onClick = {handleNext}
-            aria-label = "Next"
+            className="topRated-navBtn"
+            onClick={handleNext}
+            aria-label="Next"
           >
-             ›
+            ›
           </button>
+
+          <div className="featured-dots">
+            <button>{"<"}</button>
+            <span className="dot active"></span>
+            <span className="dot"></span>
+            <span className="dot"></span>
+            <span className="dot"></span>
+            <span className="dot"></span>
+            <button>{">"}</button>
+          </div>
         </div>
       </div>
     </section>
