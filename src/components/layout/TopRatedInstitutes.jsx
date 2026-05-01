@@ -171,13 +171,13 @@ export default function TopRatedInstitutes() {
         </div>
 
         <div className="topRated-controls">
-          <button
+          {/* <button
             className="topRated-navBtn"
             onClick={handlePrev}
             aria-label="Previous"
           >
             ‹
-          </button>
+          </button> */}
 
           <div className="topRated-dots">
             {Array.from({ length: totalPages }).map((_, index) => (
@@ -192,13 +192,13 @@ export default function TopRatedInstitutes() {
             ))}
           </div>
 
-          <button
+          {/* <button
             className="topRated-navBtn"
             onClick={handleNext}
             aria-label="Next"
           >
             ›
-          </button>
+          </button> */}
 
           <div className="featured-dots">
             <button>{"<"}</button>
