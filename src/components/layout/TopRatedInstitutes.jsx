@@ -193,7 +193,7 @@ export default function TopRatedInstitutes() {
           </button> */}
 
           <div className="topRated-dots">
-            {Array.from({ length: totalPages }).map((_, index) => (
+            {/* {Array.from({ length: totalPages }).map((_, index) => (
               <button
                 key={index}
                 className={`topRated-dot ${
@@ -202,7 +202,7 @@ export default function TopRatedInstitutes() {
                 onClick={() => setCurrentPage(index)}
                 aria-label={`Go to slide ${index + 1}`}
               />
-            ))}
+            ))} */}
           </div>
 
           {/* <button
