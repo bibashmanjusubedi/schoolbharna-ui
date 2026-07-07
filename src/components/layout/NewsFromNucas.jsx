@@ -18,15 +18,15 @@ const NewsFromNucas = () => {
         },
         {
             title:
-                "Stars Cup: Indoor friendly will offer learning possibilities and connection...",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
             image:side1,
-            category: "Sports",
+            category: "S145:Car(in robot form): will offfer",
         },
         {
             title:
-                "Alevel Parent–Followup session to enhance student's learning journey",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
             image:side2,
-            category:"Events"
+            category:"Alexis Pham - Followup session"
         },
     ];
 
@@ -42,7 +42,8 @@ const NewsFromNucas = () => {
                 {/* Left Featured Card */}
                 <div className = "news-featured">
                     <img src={news[0].image} alt = {news[0].title} />
-
+                    {/* <img src="../../assets/images/news-main.png" alt = {news[0].title} /> */}
+                    {/* <img src="/images/news-main.png" alt = {news[0].title} /> */}
                     <div className="play-button">
                         <span>▶</span>
                     </div>

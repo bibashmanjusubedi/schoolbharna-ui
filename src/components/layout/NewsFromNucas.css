@@ -36,7 +36,7 @@
 .news-featured{
     position:relative;
     overflow:hidden;
-    border-radius: 14px;
+    border-radius: 0;
     height:420px;
 }
 
@@ -103,7 +103,7 @@
     position:relative;
     height: 200px;
     overflow: hidden;
-    border-radius: 14px;
+    border-radius: 0;
 }
 
 .news-card img{
