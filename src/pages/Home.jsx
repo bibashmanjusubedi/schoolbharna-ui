@@ -8,6 +8,7 @@ import NucasAdvantage from "../components/layout/NucasAdvantage";
 import "./Home.css";
 import TopRatedInstitutes from "../components/layout/TopRatedInstitutes";
 import NewsFromNucas from "../components/layout/NewsFromNucas";
+import NucasEvents from "../components/layout/NucasEvents";
 
 export default function Home(){
     return(
@@ -20,7 +21,8 @@ export default function Home(){
             <SecuritySection />
             <NucasAdvantage />
             <TopRatedInstitutes />
-            <NewsFromNucas />         
+            <NewsFromNucas />
+            <NucasEvents />
         </>
     )
 }
