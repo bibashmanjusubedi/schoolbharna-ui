@@ -92,14 +92,80 @@
 }
 
 
-.store-btn{
+/* .store-btn{
     height:42px;
     cursor:pointer;
     transition:0.3;
+} */
+
+
+
+/* .store-btn:hover{
+    transform:scale(1.05);
+} */
+
+
+.app-store-btn{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    
+    background:#000;
+    color:#fff;
+    
+    border:none;
+    border-radius:8px;
+    
+    padding:8px 16px;
+    cursor:pointer;
+
+    transition:0.3s ease;
+    height:36px;
 }
 
 
+.app-store-btn:hover{
+    background:#1a1a1a;
+}
 
-.store-btn:hover{
-    transform:scale(1.05);
+.apple-icon{
+    width:26px;
+    height:26px;
+    object-fit: contain;
+}
+
+
+.app-store-text{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.1;
+}
+
+.small-text{
+    font-size:10px;
+}
+
+
+.big-text{
+    font-size:18px;
+    font-weight: 600;
+}
+
+
+.google-play-btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+    padding:12px 24px;
+
+    background: #000;
+
+    border:none;
+    border-radius:8px;
+
+    cursor:pointer;
+    transition:0.3s ease;
 }
