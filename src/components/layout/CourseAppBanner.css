@@ -1,0 +1,105 @@
+.course-banner{
+    padding:70px 20px;
+    background:#f7f7f7;
+}
+
+.course-banner-container{
+    max-width:1200px;
+    margin:auto;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    padding:35px 50px;
+    position:relative;
+    overflow:hidden;
+    border:1px solid #ececec;
+}
+
+
+.banner-image{
+    width:280px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.banner-image img{
+    width:170px;
+    position:relative;
+    z-index:2;
+}
+
+
+.blue-circle{
+    width:160px;
+    height:160px;
+    background: #3c8df6;
+    border-radius:50%;
+    position:absolute;
+    left:20px;
+    bottom:-20px;
+}
+
+.green-circle{
+    width:55px;
+    height:55px;
+    background:#7ac943;
+    border-radius:50%;
+    position:absolute;
+    right:35px;
+    bottom:30px; 
+}
+
+
+.banner-content{
+    flex:1;
+}
+
+
+.banner-content p{
+    font-size:15px;
+    color:#666;
+    line-height:1.7;
+    max-width:700px;
+}
+
+
+.banner-buttons{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-top:25px;
+    flex-wrap:wrap;
+}
+
+
+.learn-btn{
+    padding:12px 24px;
+    border:1px solid #2f80ed;
+    background:#fff;
+    color:#2f80ed;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+
+.learn-btn:hover{
+    background:#2f80ed;
+    color:#fff;
+}
+
+
+.store-btn{
+    height:42px;
+    cursor:pointer;
+    transition:0.3;
+}
+
+
+
+.store-btn:hover{
+    transform:scale(1.05);
+}
