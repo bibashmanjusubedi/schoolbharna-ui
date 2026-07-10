@@ -16,30 +16,33 @@
 }
 
 
-.banner-image{
-    width:280px;
-    height:320px;
-    position:relative;
-    display:flex;
-    justify-content:center;
-    align-items:flex-end;
-    overflow:hidden;
+.banner-image {
+    width: 280px;
+    height: 320px;          /* Height of the visible area */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;       /* Hides the cropped part */
 }
 
-.phone-wrapper{
-    width:170px;
-    height:290px;
-    overflow:hidden;
-    position:relative;
-    z-index:2;
+.phone-wrapper {
+    width: 170px;
+    height: 290px;          /* Visible portion of the phone */
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
 }
 
 
-.phone-wrapper img{
-    width:170px;
-    height:auto;
-    display:block;
-    transform:translateY(25px);
+
+.phone-wrapper img {
+    width: 170px;
+    height: auto;
+    display: block;
+
+    /* Move image down so the bottom gets cropped */
+    transform: translateY(25px);
 }
 
 
