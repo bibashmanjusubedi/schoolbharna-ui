@@ -2,7 +2,7 @@ import "./CourseAppBanner.css";
 
 import mobile from "../../assets/images/smartPhone2.png";
 import appStore from "../../assets/images/appStore.png";
-import googlePlay from "../../assets/images/GooglePlayLogo.png";
+import googlePlay from "../../assets/images/GPS.png";
 
 const CourseAppBanner = () => {
   return (
@@ -44,6 +44,21 @@ const CourseAppBanner = () => {
                 <span className="small-text">Download on the</span>
                 <span className="big-text">App Store</span>
               </div>
+            </button>
+
+            <button className="google-play-btn">
+              <img
+                src={googlePlay}
+                alt="Google Play"
+                className = "google-icon"
+              />
+
+              <div className = "google-play-text">
+                <span className = "small-text">GET IT ON</span>
+                <span className = "big-text">Google Play</span>
+              </div>
+
+
             </button>
 
             {/* <button className="google-play-btn">
