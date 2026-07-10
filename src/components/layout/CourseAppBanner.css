@@ -9,29 +9,30 @@
     background:#fff;
     display:flex;
     align-items:center;
-    padding:35px 50px;
+    padding:10px 50px;
     position:relative;
-    overflow:hidden;
+    overflow:visible;
     border:1px solid #ececec;
 }
 
 
 .banner-image {
     width: 280px;
-    height: 320px;          /* Height of the visible area */
+    height: 300px;          /* Height of the visible area */
     position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    overflow: hidden;       /* Hides the cropped part */
+    overflow: visible;       /* Hides the cropped part */
 }
 
 .phone-wrapper {
     width: 170px;
-    height: 290px;          /* Visible portion of the phone */
+    height: 300px;          /* Visible portion of the phone */
     overflow: hidden;
     position: relative;
     z-index: 2;
+    transform:translateY(-80px);
 }
 
 
