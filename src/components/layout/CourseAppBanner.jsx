@@ -12,7 +12,10 @@ const CourseAppBanner = () => {
           <div className="blue-circle"></div>
           <div className="green-circle"></div>
 
-          <img src={mobile} alt="mobile" />
+          <div className = "phone-wrapper">
+            <img src={mobile} alt="mobile" />
+          </div>
+          
         </div>
 
         <div className="banner-content">

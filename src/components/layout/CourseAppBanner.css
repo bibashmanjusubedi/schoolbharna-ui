@@ -18,18 +18,36 @@
 
 .banner-image{
     width:280px;
+    height:320px;
     position:relative;
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-end;
+    overflow:hidden;
 }
 
-
-.banner-image img{
+.phone-wrapper{
     width:170px;
+    height:290px;
+    overflow:hidden;
     position:relative;
     z-index:2;
 }
+
+
+.phone-wrapper img{
+    width:170px;
+    height:auto;
+    display:block;
+    transform:translateY(25px);
+}
+
+
+/* .banner-image img{
+    width:170px;
+    position:relative;
+    z-index:2;
+} */
 
 
 .blue-circle{
