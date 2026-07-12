@@ -55,7 +55,7 @@
 } */
 
 
-.blue-circle{
+/* .blue-circle{
     width:160px;
     height:160px;
     background: #3c8df6;
@@ -73,8 +73,33 @@
     position:absolute;
     right:35px;
     bottom:30px; 
+} */
+
+
+.blue-circle{
+    position:absolute;
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background:#3c8df6;
+    left:10px;
+    bottom:20px;
+    z-index:1;
+    clip-path:inset(0px 0x 35px 0px) !important;
 }
 
+
+
+/* .green-circle{
+    position:absolute;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#7ac943;
+    left:165px;
+    bottom: 105px;
+    z-index: 2;
+} */
 
 .banner-content{
     flex:1;
