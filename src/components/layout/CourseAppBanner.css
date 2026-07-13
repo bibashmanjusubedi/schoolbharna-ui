@@ -83,7 +83,7 @@
     border-radius:50%;
     background:#3c8df6;
     left:10px;
-    bottom:20px;
+    bottom:10px;
     z-index:1;
     clip-path:inset(0px 0px 35px 0px) !important;
 }
