@@ -85,7 +85,7 @@
     left:10px;
     bottom:20px;
     z-index:1;
-    clip-path:inset(0px 0x 35px 0px) !important;
+    clip-path:inset(0px 0px 35px 0px) !important;
 }
 
 
