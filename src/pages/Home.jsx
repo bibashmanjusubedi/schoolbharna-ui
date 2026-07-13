@@ -10,6 +10,7 @@ import TopRatedInstitutes from "../components/layout/TopRatedInstitutes";
 import NewsFromNucas from "../components/layout/NewsFromNucas";
 import NucasEvents from "../components/layout/NucasEvents";
 import CourseAppBanner from "../components/layout/CourseAppBanner";
+import Reviews from "../components/layout/Reviews";
 
 export default function Home(){
     return(
@@ -25,6 +26,7 @@ export default function Home(){
             <NewsFromNucas />
             <NucasEvents />
             <CourseAppBanner />
+            <Reviews />
         </>
     )
 }
