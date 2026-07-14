@@ -8,6 +8,10 @@ import reviewerRight from "../../assets/images/reviewerRight.png";
 
 import quoteIconLeft from "../../assets/images/quoteIconLeft.svg";
 
+import leftArrow from "../../assets/images/ChevronLeft.svg";
+
+import rightArrow from "../../assets/images/ChevronRight.svg";
+
 const Reviews = () => {
   return (
     <section>
@@ -70,7 +74,10 @@ const Reviews = () => {
 
         {/* Navigation */}
         <div>
-          <button>{/* ChevronLeft */}</button>
+          <button>
+            {/* ChevronLeft */}
+            <img src={leftArrow} alt="Previous" className="arrow-icon" />
+          </button>
           {/* dots */}
           <div>
             <span></span>
@@ -80,7 +87,10 @@ const Reviews = () => {
             <span></span>
           </div>
 
-          <button>{/*ChevronRight*/}</button>
+          <button>
+            {/*ChevronRight*/}
+            <img src={rightArrow} alt="Next" />
+          </button>
         </div>
       </div>
     </section>
