@@ -14,80 +14,82 @@ import rightArrow from "../../assets/images/ChevronRight.svg";
 
 const Reviews = () => {
   return (
-    <section>
-      <div>
+    <section className="reviews-section">
+      <div className="reviews-container">
         <h2>Reviews</h2>
-        <p>What our customers say...</p>
-
-        <div>
+        <p className="reviews-subtitle">What our customers say...</p>
+        <div className="reviews-wrapper">
           {/* Left Preview */}
-          {/* Quote Icon */}
-          <img src={quoteIconLeft} />
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+          <div className="review-preview left-preview">
+            {/* Quote Icon */}
+            <img src={quoteIconLeft} className="quote-icon" />
 
-          <div>
-            <img src={reviewerLeft} alt="Reviewer Left" />
-            <div>
-              <h4>Aditya Narayan</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+
+            <div className="review-user">
+              <img src={reviewerLeft} alt="Reviewer Left" />
+              <div>
+                <h4>Aditya Narayan</h4>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Main Card */}
-        <div>
-          {/* Quote Left */}
-          <img src={quoteIconLeft} />
-          {/* Quote Right */}
-          <img src={quoteIconLeft} />
+          {/* Main Card */}
+          <div className="review-card">
+            {/* Quote Left */}
+            <img src={quoteIconLeft} className="quote-left" />
+            {/* Quote Right */}
+            <img src={quoteIconLeft} className="quote-right" />
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna.
-          </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna.
+            </p>
 
-          <div>
-            <img src={reviewerCenter} alt="Reviewer Center" />
+            <div className="review-user">
+              <img src={reviewerCenter} alt="Reviewer Center" />
 
-            <div>
-              <h4>Aditya Narayan</h4>
-              <span>Liverpool College</span>
+              <div>
+                <h4>Aditya Narayan</h4>
+                <span>Liverpool College</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Right Preview */}
-        <div>
-          {/*Quote icon */}
-          <img src={quoteIconLeft} />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+          {/* Right Preview */}
+          <div className="review-preview right-preview">
+            {/*Quote icon */}
+            {/* <img src={quoteIconLeft} className="quote-icon" /> */}
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
 
-          <div>
-            <img src={reviewerRight} alt="Reviewer Right" />
+            <div className="review-user">
+              <img src={reviewerRight} alt="Reviewer Right" />
 
-            <div>
-              <h4>Aditya Narayan</h4>
-              <span>Liverpool college</span>
+              <div>
+                <h4>Aditya Narayan</h4>
+                <span>Liverpool college</span>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Navigation */}
-        <div>
-          <button>
+        <div className="review-navigation">
+          <button className="nav-btn">
             {/* ChevronLeft */}
             <img src={leftArrow} alt="Previous" className="arrow-icon" />
           </button>
           {/* dots */}
-          <div>
-            <span></span>
+          <div className="dots">
+            <span className="active"></span>
             <span></span>
             <span></span>
             <span></span>
             <span></span>
           </div>
 
-          <button>
+          <button className="nav-btn">
             {/*ChevronRight*/}
             <img src={rightArrow} alt="Next" />
           </button>
