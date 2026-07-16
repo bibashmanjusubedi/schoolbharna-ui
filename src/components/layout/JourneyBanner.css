@@ -1,0 +1,20 @@
+.journey-section{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:40px 20px;
+    box-sizing:border-box;
+}
+
+
+.journey-wrapper{
+    width:100%;
+    max-width: 1060px;
+}
+
+
+.journey-banner {
+    width:100%;
+    height:auto;
+    display:block;
+}
