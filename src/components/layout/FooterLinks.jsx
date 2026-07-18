@@ -19,11 +19,7 @@ const footerData = [
   },
   {
     title: "Degree",
-    links: [
-      "Colleges in Dang",
-      "Schools in Chitwan",
-      "Schools in Valley",
-    ],
+    links: ["Colleges in Dang", "Schools in Chitwan", "Schools in Valley"],
   },
   {
     title: "Career",
@@ -35,10 +31,26 @@ const footerData = [
   },
   {
     title: "Exams",
+    links: ["Colleges in Dharan", "Colleges in Itahari", "Colleges Illam"],
+  },
+  {
+    title: "Courses",
     links: [
-      "Colleges in Dharan",
-      "Colleges in Itahari",
-      "Colleges Illam",
+      "Colleges in Dhangadi",
+      "Schools in Biratnagar",
+      "Schools in Butwal",
+    ],
+  },
+  {
+    title: "Scholarship",
+    links: ["Colleges in Dharan", "Colleges in Itahari", "Colleges in Illam"],
+  },
+  {
+    title: "Institute",
+    links: [
+      "Institutes in Kathmandu",
+      "Institutes in Pokhara",
+      "Institutes in Lalitpur",
     ],
   },
 ];
