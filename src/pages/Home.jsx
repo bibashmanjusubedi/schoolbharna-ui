@@ -12,6 +12,7 @@ import NucasEvents from "../components/layout/NucasEvents";
 import CourseAppBanner from "../components/layout/CourseAppBanner";
 import Reviews from "../components/layout/Reviews";
 import JourneyBanner from "../components/layout/JourneyBanner";
+import FooterLinks from "../components/layout/FooterLinks";
 
 export default function Home(){
     return(
@@ -29,6 +30,7 @@ export default function Home(){
             <CourseAppBanner />
             <Reviews />
             <JourneyBanner />
+            <FooterLinks />
         </>
     )
 }
