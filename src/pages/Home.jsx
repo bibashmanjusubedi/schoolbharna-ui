@@ -13,6 +13,7 @@ import CourseAppBanner from "../components/layout/CourseAppBanner";
 import Reviews from "../components/layout/Reviews";
 import JourneyBanner from "../components/layout/JourneyBanner";
 import FooterLinks from "../components/layout/FooterLinks";
+import Footer from "../components/layout/Footer";
 
 export default function Home(){
     return(
@@ -31,6 +32,7 @@ export default function Home(){
             <Reviews />
             <JourneyBanner />
             <FooterLinks />
+            <Footer />
         </>
     )
 }
