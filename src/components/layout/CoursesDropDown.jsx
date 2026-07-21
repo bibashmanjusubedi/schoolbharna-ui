@@ -7,27 +7,31 @@ export default function CoursesDropDown({ closeDropDown }) {
       <div className="dropdown-container">
         {/*Left Side: HighLight/Intro Section*/}
         <div className="dropdown-left">
-          <div className="dropdown-icon-wrapper">
-            {/* A Clean SVG resembling my image icon */}
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#3f86d9"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <line x1="8" y1="6" x2="21" y2="6"></line>
-              <line x1="8" y1="12" x2="21" y2="12"></line>
-              <line x1="8" y1="18" x2="21" y2="18"></line>
-              <line x1="3" y1="6" x2="3.01" y2="6"></line>
-              <line x1="3" y1="12" x2="3.01" y2="12"></line>
-              <line x1="3" y1="18" x2="3.01" y2="18"></line>
-            </svg>
+          {/* Flex wrapper to place SVG icon and title side-by-side */}
+          <div className="dropdown-header">
+            <div className="dropdown-icon-wrapper">
+              {/* A Clean SVG resembling my image icon */}
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#3f86d9"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="8" y1="6" x2="21" y2="6"></line>
+                <line x1="8" y1="12" x2="21" y2="12"></line>
+                <line x1="8" y1="18" x2="21" y2="18"></line>
+                <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                <line x1="3" y1="18" x2="3.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3>Courses &gt;</h3>
           </div>
-          <h3>Courses &gt;</h3>
+          
           <p>
             Search, shortlist and compare thousands of courses to find the
             perfect one.
@@ -82,16 +86,19 @@ export default function CoursesDropDown({ closeDropDown }) {
               </a>
             </div>
           </div>
-          <a href="/courses" onClick={closeDropDown} className="blue-action-btn">
+          <a
+            href="/courses"
+            onClick={closeDropDown}
+            className="blue-action-btn"
+          >
             Browse all Courses <span>&gt;</span>
           </a>
         </div>
 
-
         {/* Right Section:Careers column */}
         <div className="dropdown-right">
-          <h4 className = "section-title">Top Careers</h4>
-          <div className= "column font-darker">
+          <h4 className="section-title">Top Careers</h4>
+          <div className="column font-darker">
             <a href="/careers/accountant" onClick={closeDropDown}>
               How to become an Accountant
             </a>
