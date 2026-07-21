@@ -33,6 +33,7 @@
     border-right:1px solid #eaeaea;
     height:100%;
     box-sizing: border-box;
+    position: relative;
 }
 
 /* Align icon and heading side by side */
@@ -73,6 +74,15 @@
     text-align: left;
 }
 
+.dropdown-left::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:100%;
+    width: 100vw;
+    background-color: #f7f9fa;
+}
 /* --- Middle & Right Segment Panels --- */
 .dropdown-middle {
     padding:22px 40px;
