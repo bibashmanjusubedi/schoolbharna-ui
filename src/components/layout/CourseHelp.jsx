@@ -25,20 +25,24 @@ const courses = [
     { title: "Arts & Media", colleges: "4000 Colleges", icon: cpaIcon },    
 ];
 
-export default function CourseHelp(){
+export default function CourseHelp({
+    title = "In doubt about which course to take?",
+    subtitle = "See information on course length, area of activity, job market,cutt-off points, average salary and more.",
+    actionText = "View all courses",
+}){
     return (
         <section className="course-help">
             <div className= "course-help-container">
                 
                 <div className="course-help-header">
-                    <h2>In doubt about which course to take?</h2>
+                    <h2>{title}</h2>
 
                     <div className="course-help-subrow">
                         <p>
-                            See information on course length, area of activity, job market,cutt-off points, average salary and more.
+                            {subtitle}
                         </p>
 
-                        <a href="/" className="view-all">View all courses</a>
+                        <a href="/" className="view-all">{actionText}</a>
 
                     </div>
 

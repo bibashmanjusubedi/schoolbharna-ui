@@ -1,5 +1,6 @@
 import React from "react";
 import "./CoursesDropDown.css";
+import { Link }  from "react-router-dom"; 
 
 export default function CoursesDropDown({ closeDropDown }) {
   return (
@@ -86,13 +87,13 @@ export default function CoursesDropDown({ closeDropDown }) {
               </a>
             </div>
           </div>
-          <a
-            href="/courses"
+          <Link
+            to="/courses"
             onClick={closeDropDown}
             className="blue-action-btn"
           >
             Browse all Courses <span>&gt;</span>
-          </a>
+          </Link>
         </div>
 
         {/* Right Section:Careers column */}
