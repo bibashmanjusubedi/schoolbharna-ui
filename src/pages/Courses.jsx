@@ -1,6 +1,10 @@
 import Navbar from "../components/layout/Navbar";
 import CourseHelp from "../components/layout/CourseHelp";
 import NewsFromNucas from "../components/layout/NewsFromNucas";
+import CourseAppBanner from "../components/layout/CourseAppBanner";
+import JourneyBanner from "../components/layout/JourneyBanner";
+import FooterLinks from "../components/layout/FooterLinks";
+import Footer from "../components/layout/Footer";
 
 export default function Courses() {
   return (
@@ -14,6 +18,13 @@ export default function Courses() {
       <NewsFromNucas
         title= "Popular Articles from courses"
       />
+
+      <CourseAppBanner />
+
+      <JourneyBanner />
+
+      <FooterLinks />
+      <Footer />
     </>
   );
 }
