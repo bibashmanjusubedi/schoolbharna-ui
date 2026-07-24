@@ -64,7 +64,7 @@ const DesiredCourse = () => {
                 {/* Grid */}
                 <div className="courses-grid">
                     {courseData.map((course) => (
-                        <div key={course.id} className="course-card">
+                        <div key={course.id} className="course-cards">
                             <img
                                 src={course.image}
                                 alt={course.title}
