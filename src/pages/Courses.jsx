@@ -6,12 +6,15 @@ import JourneyBanner from "../components/layout/JourneyBanner";
 import FooterLinks from "../components/layout/FooterLinks";
 import Footer from "../components/layout/Footer";
 import DontKnowWhichCourse from "../components/layout/DontKnowWhichCourse";
+import DesiredCourse from "../components/layout/DesiredCourse";
 
 export default function Courses() {
   return (
     <>
       <Navbar />
       <DontKnowWhichCourse />
+
+      <DesiredCourse />
 
       <CourseHelp
         title="Choose by stream"
