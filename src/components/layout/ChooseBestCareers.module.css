@@ -1,0 +1,80 @@
+.container {
+    width:100%;
+    background-color: #ffffff;
+    padding:32px 0 24px 0;
+}
+
+
+.contentWrapper{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 24px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap:24px;
+}
+
+
+.textGroup{
+    max-width: 920px;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 500;
+    color:#555555;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.description{
+    font-size: 13.5px;
+    color:#888888;
+    line-height: 1.6;
+}
+
+
+/* Social Buttons Container */
+.socialButtons{
+    display:flex;
+    align-items: center;
+    gap:8px;
+    flex-shrink: 0;
+    margin-bottom: 4px;/* Aligns visually with the bottom line of text */
+}
+
+.socialIcon{
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+/* .socialIcon #facebook{
+    color:#4267B2;
+}
+
+
+.socialIcon #twitter{
+    color:#03A9F4;
+} */
+
+.socialIcon:hover{
+    opacity:0.85;
+}
+
+
+.facebook{
+    background-color:#4a6ea9;
+}
+
+
+.twitter {
+    background-color:#00abf0;
+}

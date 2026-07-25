@@ -4,12 +4,14 @@ import JourneyBanner from "../components/layout/JourneyBanner";
 import FooterLinks from "../components/layout/FooterLinks";
 import Footer from "../components/layout/Footer";
 import CareersHero from "../components/layout/CareersHero";
+import ChooseBestCareers from "../components/layout/ChooseBestCareers";
 
 export default function Careers() {
   return (
     <>
       <Navbar />
       <CareersHero />
+      <ChooseBestCareers />
       <JourneyBanner />
       <FooterLinks />
       <Footer />
