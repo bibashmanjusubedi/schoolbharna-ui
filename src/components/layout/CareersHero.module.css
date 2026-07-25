@@ -1,0 +1,8 @@
+.heroSection{
+    width:100%;
+    height:400px;
+    background-image: url('../../assets/images/CareersHero.png');
+    background-size: cover;
+    background-position:center 35%;
+    background-repeat:no-repeat;
+}

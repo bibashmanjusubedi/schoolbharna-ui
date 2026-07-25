@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Courses from "../pages/Courses";
+import Careers from "../pages/Careers";
 
 export default function AppRoutes() {
     return (
@@ -8,6 +9,7 @@ export default function AppRoutes() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/careers" element={<Careers />} />
         </Routes>
       </BrowserRouter>
     );
