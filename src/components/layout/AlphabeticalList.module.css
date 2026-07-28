@@ -1,0 +1,127 @@
+.listCard {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.headerTabContainer {
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.headerTab {
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #45a049;
+  color: #45a049;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.alphabetNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.alphabetBtn {
+  background: none;
+  border: none;
+  color: #555555;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 2px 4px;
+  transition: color 0.2s;
+}
+
+.alphabetBtn:hover,
+.activeBtn {
+  color: #45a049;
+}
+
+.letterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 600px) {
+  .letterGroup {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.letterBadge {
+  width: 64px;
+  font-size: 64px;
+  font-weight: 300;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #45a049;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.itemsList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.itemRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fcfcfc;
+  padding: 16px;
+  border-bottom: 1px solid #eeeeee;
+  gap: 12px;
+}
+
+@media (min-width: 600px) {
+  .itemRow {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.itemTitle {
+  font-size: 12px;
+  font-weight: bold;
+  color: #444444;
+  letter-spacing: 0.5px;
+}
+
+.detailsBtn {
+  background-color: #45a049;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+
+.detailsBtn:hover {
+  background-color: #3b8a3e;
+}
+
+.arrowIcon {
+  font-size: 10px;
+}

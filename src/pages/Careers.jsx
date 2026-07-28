@@ -5,6 +5,7 @@ import FooterLinks from "../components/layout/FooterLinks";
 import Footer from "../components/layout/Footer";
 import CareersHero from "../components/layout/CareersHero";
 import ChooseBestCareers from "../components/layout/ChooseBestCareers";
+import CareerGuideDirectory from "../components/layout/CareerGuideDirectory";
 
 export default function Careers() {
   return (
@@ -12,6 +13,7 @@ export default function Careers() {
       <Navbar />
       <CareersHero />
       <ChooseBestCareers />
+      <CareerGuideDirectory />
       <JourneyBanner />
       <FooterLinks />
       <Footer />
