@@ -1,5 +1,6 @@
 import React from "react";
 import "./InstitutionDropDown.css"; // Shared CSS for both dropdowns
+import { Link }  from "react-router-dom"; 
 
 export default function InstitutionDropDown({ closeDropDown }) {
   return (
@@ -85,13 +86,13 @@ export default function InstitutionDropDown({ closeDropDown }) {
               </a>
             </div>
           </div>
-          <a
-            href="/institutions"
+          <Link
+            to="/institutions-viewal"
             onClick={closeDropDown}
             className="blue-action-btn"
           >
             Browse all Institutions <span>&gt;</span>
-          </a>
+          </Link>
         </div>
 
         {/* Right Section: By Category Links */}
